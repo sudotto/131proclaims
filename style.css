@@ -9,6 +9,8 @@ html {
 }
 
 h1 {
+	color: white;
+	margin-top: 100px;
 	text-align: center;
 }
 
@@ -22,6 +24,25 @@ h2 {
 	margin-left: 10px;
 }
 
+h3 {
+	background-image: url('page.png');
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	padding: 2px;
+	padding-left: 40px;
+	width: fit-content;
+	margin-left: 10px;
+}
+
+a {
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+	background-color: black;
+	outline: 1px solid black;
+	border-radius: 10px;
+}
+
 .main {
 	margin: 100px;
 	border-radius: 10px;
@@ -31,6 +52,7 @@ h2 {
 
 .chapter {
 }
+
 
 .entry {
 	background-image: url('lily.png');
