@@ -1,0 +1,53 @@
+* {
+	font-family: 'Courier New', monospace;
+}
+
+html {
+	background-image: url(bayou.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	background-image: url('book.png');
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	padding: 2px;
+	padding-left: 40px;
+	width: fit-content;
+	margin-left: 10px;
+}
+
+.main {
+	margin: 100px;
+	border-radius: 10px;
+	padding: 10px;
+	background-color: white;
+}
+
+.chapter {
+}
+
+.entry {
+	background-image: url('lily.png');
+	background-repeat: no-repeat;
+	background-size: auto 25px;
+	padding: 2px;
+	padding-left: 30px;
+	width: fit-content;
+	margin-left: 50px;
+}
+
+.reply {
+	background-image: url('reply.png');
+	background-repeat: no-repeat;
+	background-size: auto 25px;
+	padding: 2px;
+	padding-left: 30px;
+	width: fit-content;
+	margin-left: 50px;
+}
