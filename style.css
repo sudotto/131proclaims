@@ -87,3 +87,20 @@ a {
 	width: fit-content;
 	margin-left: 50px;
 }
+
+#up {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+#stats {
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+	background-color: black;
+	outline: 1px solid black;
+	margin: 20px;
+	display: block;
+	border-radius: 10px;
+}
