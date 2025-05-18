@@ -31,4 +31,14 @@ window.onload = function() {
 	if(chars){
 		chars.innerText = `${total_chars} letters`;
 	}
+	var counter = 0;
 };
+window.addEventListener('scroll', function(event) {
+	var num = Math.random(); 
+	console.log(num);
+	if(num <= 0.001){
+		if(!confirm("Are you enjoying the word?")){
+			alert("CAST OUT THE GREAT HUNGER WHICH BLINDS YOU FROM THE TRUTH, YOU ARE A HEATHEN BUT YOU CAN BE CURED OF YOUR SINFUL WAYS");
+		}
+	}
+});
